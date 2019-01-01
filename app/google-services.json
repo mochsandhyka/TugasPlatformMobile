@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "847838577282",
+    "firebase_url": "https://animestories-d6be4.firebaseio.com",
+    "project_id": "animestories-d6be4",
+    "storage_bucket": "animestories-d6be4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:847838577282:android:0fd668eb4c583e41",
+        "android_client_info": {
+          "package_name": "com.example.asus.a1000animestories"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "847838577282-o5anmvq8sg36rcse5c0lnp1ifd60i76p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus.a1000animestories",
+            "certificate_hash": "286204a38561e41be1854d12aa2b222858e7b59e"
+          }
+        },
+        {
+          "client_id": "847838577282-2jc0o5aqllcn94ue75n0sa293tjmhiop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdbWWDCL8VbzpxDaE9RhMpqdDbdSkaWVU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "847838577282-2jc0o5aqllcn94ue75n0sa293tjmhiop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
