@@ -9,11 +9,15 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.widget.ShareActionProvider;
 
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
     private DrawerLayout drawer;
+    private ShareActionProvider shareActionProvider;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,14 +57,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         switch (menuItem.getItemId()){
-            case R.id.nav_view:
+            case R.id.home:
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new HomeFragment()).commit();
             break;
+            case R.id.judul:
+                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                        new RecyclerFragment()).commit();
+                break;
+
         }
 
         drawer.closeDrawer(GravityCompat.START);
 
         return true;
     }
+
+
 }

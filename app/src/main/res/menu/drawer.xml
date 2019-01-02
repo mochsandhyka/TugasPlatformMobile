@@ -9,9 +9,9 @@
             android:icon="@drawable/ic_home"
             android:title="Home"/>
         <item
-            android:id="@+id/genre"
+            android:id="@+id/judul"
             android:icon="@drawable/ic_genre"
-            android:title="Genre"/>
+            android:title="List Stories"/>
     </group>
 
     <item android:title="Communicate">

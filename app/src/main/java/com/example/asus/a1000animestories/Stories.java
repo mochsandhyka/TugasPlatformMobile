@@ -6,8 +6,6 @@ public class Stories {
     private String isi;
     private String genre;
 
-    public Stories() {
-    }
 
     public Stories(String judul, String isi, String genre) {
         this.judul = judul;
